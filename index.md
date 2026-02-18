@@ -10,8 +10,8 @@
 			});
 			embeddedservice_bootstrap.init(
 				'00DOt000002m0EL',
-				'Sheplers_Messaging',
-				'https://bootbarn--uat.sandbox.my.site.com/ESWSheplersMessaging1770066250362',
+				'Country_Outfitters_Messaging',
+				'https://bootbarn--uat.sandbox.my.site.com/ESWCountryOutfittersMes1770066167469',
 				{
 					scrt2URL: 'https://bootbarn--uat.sandbox.my.salesforce-scrt.com'
 				}
@@ -21,5 +21,5 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bootbarn--uat.sandbox.my.site.com/ESWSheplersMessaging1770066250362/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bootbarn--uat.sandbox.my.site.com/ESWCountryOutfittersMes1770066167469/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </html>
