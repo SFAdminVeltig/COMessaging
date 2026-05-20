@@ -3,17 +3,17 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			
+					
 		window.addEventListener("onEmbeddedMessagingReady", () => {            
 			console.log( "Inside Prechat API!!" );
 			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( {'QueueName' : 'Country Outfitters Messaging' } );
-			});
+				});
 			embeddedservice_bootstrap.init(
-				'00DOt000002m0EL',
+				'00D6g0000050w0P',
 				'Country_Outfitters_Messaging',
-				'https://bootbarn--uat.sandbox.my.site.com/ESWCountryOutfittersMes1770066167469',
+				'https://bootbarn.my.site.com/ESWCountryOutfittersMes1770066167469',
 				{
-					scrt2URL: 'https://bootbarn--uat.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://bootbarn.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -21,5 +21,5 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bootbarn--uat.sandbox.my.site.com/ESWCountryOutfittersMes1770066167469/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bootbarn.my.site.com/ESWCountryOutfittersMes1770066167469/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </html>
