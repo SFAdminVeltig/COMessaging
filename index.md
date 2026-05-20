@@ -3,6 +3,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			embeddedservice_bootstrap.settings.enableUserInputForConversationWithBot = false; // Prevent user from typing if bot hasn't responded.
 					
 		window.addEventListener("onEmbeddedMessagingReady", () => {            
 			console.log( "Inside Prechat API!!" );
